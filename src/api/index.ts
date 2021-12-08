@@ -1,10 +1,10 @@
 import { Router } from 'express'
-import whatsapp from './route/whatsapp'
+import webApp from './route/webApp'
 
 export default () => {
   const app = Router()
 
-  whatsapp(app)
+  webApp(app)
 
   return app
 }
