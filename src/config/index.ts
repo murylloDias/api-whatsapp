@@ -10,6 +10,7 @@ if (eventFound.error) {
 
 export default {
   port: process.env.PORT || 3001,
+  databaseURL: process.env.MONGODB_URL || 'URL inválida',
   logs: {
     level: process.env.LOG_LEVEL || 'silly'
   },
